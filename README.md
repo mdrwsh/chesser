@@ -32,7 +32,7 @@ Chesser is designed to play chess autonomously on a graphical chessboard interfa
 
 ## Usage
 
-1. Configure your chess engine executable (e.g., `stockfish.exe`) in chesser.py
+1. Specify your chess engine executable (e.g., `stockfish.exe`) in chesser.py
 2. Run the script:
    ```bash
    python chesser.py
@@ -64,8 +64,9 @@ python chess_bot.py
 ## Notes
 
 - This script requires a graphical chessboard interface to interact with.
-- The chess engine executable can be specified in chesser.py, [Patricia](https://github.com/Adam-Kulju/Patricia) is the default.
+- The chess engine executable can be specified in chesser.py.
 - The bot uses frame differences to detect moves, so it may not work well with animations or highly dynamic interfaces.
+- Only work in Windows currently.
 - Please report any issue, PR will be ignored.
 
 ## License
