@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Chess Bot is designed to play chess autonomously on a graphical chessboard interface. It captures the screen to recognize the board state, detects the opponent's moves by analyzing frame differences, and makes moves using a chess engine. The bot can play as either white or black.
+Chesser is designed to play chess autonomously on a graphical chessboard interface. It captures the screen to recognize the board state, detects the opponent's moves by analyzing frame differences, and makes moves using a chess engine. The bot can play as either white or black.
 
 ## Features
 
@@ -32,10 +32,10 @@ This Chess Bot is designed to play chess autonomously on a graphical chessboard 
 
 ## Usage
 
-1. Ensure you have the chess engine executable (e.g., `obsidian.exe`) in the same directory as your script.
+1. Configure your chess engine executable (e.g., `stockfish.exe`) in chesser.py
 2. Run the script:
    ```bash
-   python chess_bot.py
+   python chesser.py
    ```
 3. Click on the top-left and bottom-right corners of the chessboard to define the board area.
 4. Choose whether you want to play as white or black.
@@ -64,8 +64,9 @@ python chess_bot.py
 ## Notes
 
 - This script requires a graphical chessboard interface to interact with.
-- The chess engine executable can be specified in chesser.py, [Patricia](https://github.com/Adam-Kulju/Patricia) is the default
+- The chess engine executable can be specified in chesser.py, [Patricia](https://github.com/Adam-Kulju/Patricia) is the default.
 - The bot uses frame differences to detect moves, so it may not work well with animations or highly dynamic interfaces.
+- Please report any issue, PR will be ignored.
 
 ## License
 
