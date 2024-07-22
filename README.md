@@ -1,4 +1,4 @@
-# Chess Bot Readme
+# Chesser
 
 ## Overview
 
